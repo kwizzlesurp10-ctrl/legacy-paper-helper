@@ -1,50 +1,43 @@
 # LegacyPaperHelper
 
-A simple, beginner-friendly tool that helps turn old scanned papers, graphs, and documents into clean, usable data.
+**A simple, beginner-friendly tool** that helps turn old scanned papers, graphs, and documents into clean, usable data.
 
 ## What it does
 
-Upload a scanned PDF or image of an old paper → the tool finds graphs, text sections, and important information → you get organized data you can open in Excel or Google Sheets.
+Upload a scanned PDF or photo of an old document → the tool finds important sections and graphs → you get organized data ready for Excel or reports.
 
-Built by combining four simple, forgotten tools that were sitting on GitHub for years.
+Built by combining four simple tools that were sitting unused on GitHub for years.
 
-## Who is this for?
-
+## Who it's for
 - Students
 - Teachers
-- Researchers working with old documents
-- Anyone who wants to extract data from scanned papers without complicated software
+- Hobby researchers
+- Anyone tired of manually copying data from old papers
 
-## Quick Start (Easiest Way)
+## Current Features
+- Upload PDFs and images
+- Basic layout detection (finds text regions and figures)
+- Simple graph digitization helper
+- Clean export to CSV
 
-1. Make sure you have Python installed
-2. Download this repository
-3. Open a terminal in the folder
-4. Run:
-   ```
-   pip install -r requirements.txt
-   streamlit run app.py
-   ```
-5. Your browser will open with a simple interface
+## How to Run
 
-## Demo
+```bash
+git clone https://github.com/kwizzlesurp10-ctrl/legacy-paper-helper.git
+cd legacy-paper-helper
+pip install -r requirements.txt
+streamlit run app.py
+```
 
-Open `index.html` in your browser to see a nice interactive demo of how the tool works.
+Then open the link in your browser.
 
-## The 4 Old Tools Used
+## The 4 Dormant Tools Used
 
-This project respectfully revives code from these dormant repositories:
+This project revives code from:
+- Plot digitization (2017)
+- Document layout analysis (2020)
+- Simple spectrogram tools (2017)
+- Basic FITS handling
 
-- Plot digitization (suhasjains/MyPlotDigitizer - 2017)
-- Document layout analysis (rbaguila/document-layout-analysis - 2020)
-- Simple audio/spectrogram tools (xmikos/simplespectral - 2017)
-- Basic FITS file handling (old astronomy community code)
-
-## Future Plans
-
-- Full Python implementation
-- Better PDF support
-- One-click export to Excel
-- Hostable version for Hostinger
-
-Made with care for regular users who just want things to work.
+## Next Steps
+We're actively developing this into a practical tool. Contributions and ideas are welcome!

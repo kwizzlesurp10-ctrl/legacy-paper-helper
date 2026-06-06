@@ -1,6 +1,6 @@
 streamlit
-pandas
-Pillow
 opencv-python-headless
+Pillow
 pdf2image
 numpy
+pandas
